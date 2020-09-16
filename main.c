@@ -1,7 +1,17 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Ola Mundo\n");
+  int numero;
+  printf("Digite o seu valor :");
+  scanf("%d",&numero);
+
+  if(numero % 2 ==0 )
+  printf("Par\n");
+  else{
+    printf("Impar\n");
+  
+  }
+
   return 0;
 
 //texto
@@ -20,6 +30,23 @@ printf("Idade ; %d anos\n", idade);
 
 leia(idade,peso)
 scanf("%d%f",&idade ,&peso);
+
+printf("Idade= %d e o Peso =%f \n ,idade ,peso");
+
+
+
+
+
+se(??)
+{}
+
+senao
+{}
+
+if(??)
+{}
+else
+{}
 */
 
 }
